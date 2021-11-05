@@ -4,4 +4,6 @@ A Website for buying and selling old cars.
 
 
 Backend - Spring BOOT
-Frontent - AngularJS
+Frontend - AngularJS
+Database - MySQL
+ORM - JPA/ Hibernate
