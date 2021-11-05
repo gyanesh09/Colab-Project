@@ -1,4 +1,4 @@
 # Colab-Project
 
 Backend - Spring BOOT
-Frontent - ReactJS
+Frontent - AngularJS
