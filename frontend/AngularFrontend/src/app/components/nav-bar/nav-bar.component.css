@@ -1,0 +1,15 @@
+.input-group {
+  position: absolute;
+  left: 37%;
+  width: 29%;
+}
+
+.btn-primary {
+  position: absolute;
+  right: 6.5%;
+}
+
+.btn-secondary {
+  position: absolute;
+  right: 1%;
+}
