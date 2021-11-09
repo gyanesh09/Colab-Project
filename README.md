@@ -17,6 +17,6 @@ JPA/ Hibernate
 npm install -g @angular/cli </br>
 ng new myproject </br>
 cd myproject </br>
-npm install bootstrap@3 jquery --save </br>
+npm install bootstrap@4 jquery --save </br>
 ng serve </br>
 
