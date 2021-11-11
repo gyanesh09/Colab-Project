@@ -10,7 +10,7 @@ import { CardComponent } from './card/card.component';
 import { CardsComponent } from './cards/cards.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-
+import { ComponentsRoutingModule } from './components-routing.module'; 
 
 
 @NgModule({
@@ -27,7 +27,8 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentsRoutingModule
   ],
   exports:[
     HomeComponent,
