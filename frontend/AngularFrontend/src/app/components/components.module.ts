@@ -10,6 +10,7 @@ import { CardComponent } from './card/card.component';
 import { CardsComponent } from './cards/cards.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
 import { ComponentsRoutingModule } from './components-routing.module'; 
 
 
@@ -24,7 +25,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
     CardComponent,
     CardsComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +42,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
      CardComponent ,
      CardsComponent ,
      RegisterComponent, 
-    LoginComponent 
+    LoginComponent,
+    FooterComponent  
   ]
 })
 export class ComponentsModule { }
