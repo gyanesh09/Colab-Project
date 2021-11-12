@@ -44,6 +44,7 @@ import { ComponentsRoutingModule } from './components-routing.module';
      RegisterComponent, 
     LoginComponent,
     FooterComponent  
-  ]
+  ],
+  bootstrap: [ComponentsModule]
 })
 export class ComponentsModule { }
