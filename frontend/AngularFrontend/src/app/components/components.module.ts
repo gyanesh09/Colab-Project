@@ -10,6 +10,7 @@ import { CardComponent } from './card/card.component';
 import { CardsComponent } from './cards/cards.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -24,7 +25,8 @@ import { LoginComponent } from './login/login.component';
     CardComponent,
     CardsComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -39,7 +41,8 @@ import { LoginComponent } from './login/login.component';
      CardComponent ,
      CardsComponent ,
      RegisterComponent, 
-    LoginComponent 
+    LoginComponent,
+    FooterComponent  
   ]
 })
 export class ComponentsModule { }
