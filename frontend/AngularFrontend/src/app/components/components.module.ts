@@ -11,7 +11,7 @@ import { CardsComponent } from './cards/cards.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { ComponentsRoutingModule } from './components-routing.module'; 
 
 
 @NgModule({
@@ -29,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentsRoutingModule
   ],
   exports:[
     HomeComponent,
